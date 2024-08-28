@@ -1,0 +1,11 @@
+.accordion {
+    --bs-accordion-active-bg: #5db48c;
+    --bs-accordion-active-color: white;
+    /* Custom active color */
+}
+
+/* Fallback direct styling */
+.accordion-button:focus {
+    box-shadow: 0 0 0 0.15rem #238959;
+    /* Example focus box shadow */
+}
